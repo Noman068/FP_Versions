@@ -1,0 +1,191 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6">
+      <div class="card">
+        <div class="card-header">
+          <h2 class="card-title text-center">
+            @if (isEditMode) {
+              Edit Patient
+            } @else {
+              Add New Patient
+            }
+          </h2>
+        </div>
+        <div class="card-body">
+          <form [formGroup]="patientForm" (ngSubmit)="onSubmit()">
+            <!-- Error Alert -->
+            @if (error$ | async; as error) {
+              <div class="alert alert-danger d-flex justify-content-between align-items-center">
+                <span>{{ error }}</span>
+                <button class="btn btn-sm btn-outline-danger" (click)="clearError()">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+            }
+
+            <div class="row">
+              <!-- First Name -->
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="firstname" class="form-label">First Name</label>
+                  <input
+                    type="text"
+                    id="firstname"
+                    class="form-control"
+                    [class.error]="patientForm.get('firstname')?.invalid && patientForm.get('firstname')?.touched"
+                    formControlName="firstname"
+                    appNameInput="firstname"
+                    placeholder="First Name"
+                  />
+                  @if (getFieldError('firstname')) {
+                    <div class="form-error">{{ getFieldError('firstname') }}</div>
+                  }
+                </div>
+              </div>
+
+              <!-- Last Name -->
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="lastname" class="form-label">Last Name</label>
+                  <input
+                    type="text"
+                    id="lastname"
+                    class="form-control"
+                    [class.error]="patientForm.get('lastname')?.invalid && patientForm.get('lastname')?.touched"
+                    formControlName="lastname"
+                    appNameInput="lastname"
+                    placeholder="Last Name"
+                  />
+                  @if (getFieldError('lastname')) {
+                    <div class="form-error">{{ getFieldError('lastname') }}</div>
+                  }
+                </div>
+              </div>
+            </div>
+
+            <!-- Gender -->
+            <div class="form-group">
+              <label for="gender" class="form-label">Gender</label>
+              <select
+                id="gender"
+                class="form-control"
+                [class.error]="patientForm.get('gender')?.invalid && patientForm.get('gender')?.touched"
+                formControlName="gender"
+              >
+                <option value="">Select Gender</option>
+                @for (gender of genders; track gender.value) {
+                  <option [value]="gender.value">{{ gender.label }}</option>
+                }
+              </select>
+              @if (getFieldError('gender')) {
+                <div class="form-error">{{ getFieldError('gender') }}</div>
+              }
+            </div>
+
+            <!-- Email -->
+            <div class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="email"
+                id="email"
+                class="form-control"
+                [class.error]="patientForm.get('email')?.invalid && patientForm.get('email')?.touched"
+                formControlName="email"
+                placeholder="Enter patient's email"
+              />
+              @if (getFieldError('email')) {
+                <div class="form-error">{{ getFieldError('email') }}</div>
+              }
+            </div>
+
+            <div class="row">
+              <!-- Phone Number -->
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="phoneNo" class="form-label">Phone Number</label>
+                  <input
+                    type="tel"
+                    id="phoneNo"
+                    class="form-control"
+                    [class.error]="patientForm.get('phoneNo')?.invalid && patientForm.get('phoneNo')?.touched"
+                    formControlName="phoneNo"
+                    placeholder="Enter phone number"
+                  />
+                  @if (getFieldError('phoneNo')) {
+                    <div class="form-error">{{ getFieldError('phoneNo') }}</div>
+                  }
+                </div>
+              </div>
+
+              <!-- Emergency Phone -->
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="emergencyPhone" class="form-label">Emergency Phone</label>
+                  <input
+                    type="tel"
+                    id="emergencyPhone"
+                    class="form-control"
+                    [class.error]="patientForm.get('emergencyPhone')?.invalid && patientForm.get('emergencyPhone')?.touched"
+                    formControlName="emergencyPhone"
+                    placeholder="Enter emergency contact"
+                  />
+                  @if (getFieldError('emergencyPhone')) {
+                    <div class="form-error">{{ getFieldError('emergencyPhone') }}</div>
+                  }
+                </div>
+              </div>
+            </div>
+
+            <!-- Address -->
+            <div class="form-group">
+              <label for="userAddress" class="form-label">Address</label>
+              <textarea
+                id="userAddress"
+                class="form-control"
+                [class.error]="patientForm.get('userAddress')?.invalid && patientForm.get('userAddress')?.touched"
+                formControlName="userAddress"
+                rows="3"
+                placeholder="Enter patient's address"
+              ></textarea>
+              @if (getFieldError('userAddress')) {
+                <div class="form-error">{{ getFieldError('userAddress') }}</div>
+              }
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="form-group d-flex gap-2">
+              <button
+                type="submit"
+                class="btn btn-primary flex-fill"
+                [disabled]="patientForm.invalid || (loading$ | async)"
+              >
+                @if (loading$ | async) {
+                  <span class="spinner-border spinner-border-sm me-2" role="status"></span>
+                  @if (isEditMode) {
+                    Updating...
+                  } @else {
+                    Creating...
+                  }
+                } @else {
+                  @if (isEditMode) {
+                    Update Patient
+                  } @else {
+                    Create Patient
+                  }
+                }
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                (click)="onCancel()"
+                [disabled]="loading$ | async"
+              >
+                Cancel
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

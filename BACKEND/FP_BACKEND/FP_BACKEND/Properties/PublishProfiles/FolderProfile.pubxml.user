@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Hosting\Care_Lite_Backend</_PublishTargetUrl>
+    <History>True|2025-09-08T11:26:53.8787092Z||;False|2025-09-08T07:26:24.5047759-04:00||;True|2025-09-08T07:04:25.0007165-04:00||;True|2025-09-08T04:01:31.7352419-04:00||;True|2025-09-08T03:46:58.5711699-04:00||;True|2025-09-08T03:25:23.2251172-04:00||;True|2025-09-08T03:04:17.8272505-04:00||;True|2025-09-08T02:36:43.1583428-04:00||;False|2025-09-08T02:36:29.2094985-04:00||;True|2025-09-08T02:23:26.8748465-04:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

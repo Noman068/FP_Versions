@@ -1,0 +1,194 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6">
+      <div class="card">
+        <div class="card-header">
+          <h2 class="card-title text-center">Sign Up</h2>
+        </div>
+        <div class="card-body">
+          <form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+            <!-- Error Alert -->
+            @if (error$ | async; as error) {
+              <div class="alert alert-danger">
+                {{ error }}
+              </div>
+            }
+
+            <!-- Form Level Error -->
+            @if (getFormError()) {
+              <div class="alert alert-danger">
+                {{ getFormError() }}
+              </div>
+            }
+
+            <div class="row">
+              <!-- First Name -->
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="firstname" class="form-label">First Name</label>
+                  <input
+                    type="text"
+                    id="firstname"
+                    class="form-control"
+                    [class.error]="signupForm.get('firstname')?.invalid && signupForm.get('firstname')?.touched"
+                    formControlName="firstname"
+                    appNameInput="firstname"
+                    placeholder="First Name"
+                  />
+                  @if (getFieldError('firstname')) {
+                    <div class="form-error">{{ getFieldError('firstname') }}</div>
+                  }
+                </div>
+              </div>
+
+              <!-- Last Name -->
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="lastname" class="form-label">Last Name</label>
+                  <input
+                    type="text"
+                    id="lastname"
+                    class="form-control"
+                    [class.error]="signupForm.get('lastname')?.invalid && signupForm.get('lastname')?.touched"
+                    formControlName="lastname"
+                    appNameInput="lastname"
+                    placeholder="Last Name"
+                  />
+                  @if (getFieldError('lastname')) {
+                    <div class="form-error">{{ getFieldError('lastname') }}</div>
+                  }
+                </div>
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="email"
+                id="email"
+                class="form-control"
+                [class.error]="signupForm.get('email')?.invalid && signupForm.get('email')?.touched"
+                formControlName="email"
+                placeholder="Enter your email"
+              />
+              @if (getFieldError('email')) {
+                <div class="form-error">{{ getFieldError('email') }}</div>
+              }
+            </div>
+
+            <!-- Phone -->
+            <div class="form-group">
+              <label for="phone" class="form-label">Phone Number</label>
+              <input
+                type="tel"
+                id="phone"
+                class="form-control"
+                [class.error]="signupForm.get('phone')?.invalid && signupForm.get('phone')?.touched"
+                formControlName="phone"
+                placeholder="Enter your phone number"
+              />
+              @if (getFieldError('phone')) {
+                <div class="form-error">{{ getFieldError('phone') }}</div>
+              }
+            </div>
+
+            <!-- Address -->
+            <div class="form-group">
+              <label for="address" class="form-label">Address</label>
+              <textarea
+                id="address"
+                class="form-control"
+                [class.error]="signupForm.get('address')?.invalid && signupForm.get('address')?.touched"
+                formControlName="address"
+                rows="3"
+                placeholder="Enter your address"
+              ></textarea>
+              @if (getFieldError('address')) {
+                <div class="form-error">{{ getFieldError('address') }}</div>
+              }
+            </div>
+
+            <!-- Role -->
+            <div class="form-group">
+              <label for="role" class="form-label">Role</label>
+              <select
+                id="role"
+                class="form-control"
+                [class.error]="signupForm.get('role')?.invalid && signupForm.get('role')?.touched"
+                formControlName="role"
+              >
+                <option value="">Select a role</option>
+                @for (role of roles; track role.id) {
+                  <option [value]="role.name">{{ role.name | titlecase }}</option>
+                }
+              </select>
+              @if (getFieldError('role')) {
+                <div class="form-error">{{ getFieldError('role') }}</div>
+              }
+            </div>
+
+            <div class="row">
+              <!-- Password -->
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="passwordHash" class="form-label">Password</label>
+                  <input
+                    type="password"
+                    id="passwordHash"
+                    class="form-control"
+                    [class.error]="signupForm.get('passwordHash')?.invalid && signupForm.get('passwordHash')?.touched"
+                    formControlName="passwordHash"
+                    placeholder="Enter your password"
+                  />
+                  @if (getFieldError('passwordHash')) {
+                    <div class="form-error">{{ getFieldError('passwordHash') }}</div>
+                  }
+                </div>
+              </div>
+
+              <!-- Confirm Password -->
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="confirmPassword" class="form-label">Confirm Password</label>
+                  <input
+                    type="password"
+                    id="confirmPassword"
+                    class="form-control"
+                    [class.error]="signupForm.get('confirmPassword')?.invalid && signupForm.get('confirmPassword')?.touched"
+                    formControlName="confirmPassword"
+                    placeholder="Confirm your password"
+                  />
+                  @if (getFieldError('confirmPassword')) {
+                    <div class="form-error">{{ getFieldError('confirmPassword') }}</div>
+                  }
+                </div>
+              </div>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="form-group">
+              <button
+                type="submit"
+                class="btn btn-primary w-100"
+                [disabled]="signupForm.invalid || (loading$ | async)"
+              >
+                @if (loading$ | async) {
+                  <span class="spinner-border spinner-border-sm me-2" role="status"></span>
+                  Creating Account...
+                } @else {
+                  Sign Up
+                }
+              </button>
+            </div>
+          </form>
+
+          <!-- Login Link -->
+          <div class="text-center mt-3">
+            <p>Already have an account? <a routerLink="/login">Login here</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
