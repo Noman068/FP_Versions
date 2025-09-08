@@ -1,0 +1,176 @@
+<div class="dashboard-container">
+  <!-- Header -->
+  <div class="dashboard-header">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center">
+        <div>
+          <h1>Dashboard</h1>
+          <p class="text-muted">Welcome back, {{ (user$ | async)?.firstname }}!</p>
+        </div>
+        <div class="user-info">
+          <span class="badge badge-primary">{{ getUserRole(user$ | async) | titlecase }}</span>
+          <button class="btn btn-outline-secondary ms-2" (click)="logout()">
+            <i class="fas fa-sign-out-alt"></i> Logout
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stats Cards -->
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-6 col-lg-3">
+        <div class="stat-card">
+          <div class="stat-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <div class="stat-content">
+            <h3>{{ stats.totalPatients }}</h3>
+            <p>Total Patients</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="stat-card">
+          <div class="stat-icon">
+            <i class="fas fa-user-plus"></i>
+          </div>
+          <div class="stat-content">
+            <h3>{{ stats.recentPatients }}</h3>
+            <p>Recent Patients</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="stat-card">
+          <div class="stat-icon">
+            <i class="fas fa-calendar-check"></i>
+          </div>
+          <div class="stat-content">
+            <h3>0</h3>
+            <p>Today's Appointments</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="stat-card">
+          <div class="stat-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <div class="stat-content">
+            <h3>0</h3>
+            <p>Active Cases</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Quick Actions -->
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-12">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">Quick Actions</h3>
+          </div>
+          <div class="card-body">
+            <div class="row">
+              @if (canManagePatients(user$ | async)) {
+                <div class="col-md-4 mb-3">
+                  <div class="action-card">
+                    <div class="action-icon">
+                      <i class="fas fa-user-plus"></i>
+                    </div>
+                    <h5>Add Patient</h5>
+                    <p>Register a new patient in the system</p>
+                    <a routerLink="/patients/create" class="btn btn-primary">
+                      Add Patient
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <div class="action-card">
+                    <div class="action-icon">
+                      <i class="fas fa-search"></i>
+                    </div>
+                    <h5>Search Patients</h5>
+                    <p>Find and view patient information</p>
+                    <a routerLink="/patients" class="btn btn-primary">
+                      Search Patients
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <div class="action-card">
+                    <div class="action-icon">
+                      <i class="fas fa-list"></i>
+                    </div>
+                    <h5>View All Patients</h5>
+                    <p>Browse all patients in the system</p>
+                    <a routerLink="/patients" class="btn btn-primary">
+                      View All
+                    </a>
+                  </div>
+                </div>
+              } @else {
+                <div class="col-12">
+                  <div class="alert alert-info">
+                    <i class="fas fa-info-circle"></i>
+                    You have limited access. Contact your administrator for more permissions.
+                  </div>
+                </div>
+              }
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Recent Activity -->
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-12">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">Recent Activity</h3>
+          </div>
+          <div class="card-body">
+            @if (loading$ | async) {
+              <div class="text-center">
+                <div class="spinner"></div>
+                <p>Loading recent activity...</p>
+              </div>
+            } @else {
+              <div class="activity-list">
+                @if ((patients$ | async)?.length === 0) {
+                  <div class="text-center text-muted">
+                    <i class="fas fa-inbox fa-2x mb-2"></i>
+                    <p>No recent activity to display.</p>
+                  </div>
+                } @else {
+                  @for (patient of (patients$ | async)?.slice(0, 5); track patient.patientId) {
+                    <div class="activity-item">
+                      <div class="activity-icon">
+                        <i class="fas fa-user"></i>
+                      </div>
+                      <div class="activity-content">
+                        <h6>{{ patient.firstname }} {{ patient.lastname }}</h6>
+                        <p class="text-muted">{{ patient.email }}</p>
+                      </div>
+                      <div class="activity-time">
+                        <small class="text-muted">Recently added</small>
+                      </div>
+                    </div>
+                  }
+                }
+              </div>
+            }
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

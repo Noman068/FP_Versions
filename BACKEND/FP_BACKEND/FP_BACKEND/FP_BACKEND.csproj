@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.16" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Repositories\AuditRepo\Implementations\" />
+    <Folder Include="Repositories\AuditRepo\Interfaces\" />
+    <Folder Include="Repositories\AuthRepo\Implementations\" />
+    <Folder Include="Repositories\AuthRepo\Interfaces\" />
+    <Folder Include="Services\AuditSer\Implementations\" />
+    <Folder Include="Services\AuditSer\Interfaces\" />
+    <Folder Include="Services\AuthSer\Implementstions\" />
+    <Folder Include="Services\AuthSer\Interfaces\" />
+  </ItemGroup>
+
+</Project>

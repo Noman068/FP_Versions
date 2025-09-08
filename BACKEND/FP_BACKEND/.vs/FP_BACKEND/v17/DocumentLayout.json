@@ -1,0 +1,459 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|d:\\fp_versions\\final_project-master\\final_project-master\\allowed\\backend\\fp_backend\\fp_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|solutionrelative:fp_backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|d:\\fp_versions\\final_project-master\\final_project-master\\allowed\\backend\\fp_backend\\fp_backend\\infrastructure\\registerar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|solutionrelative:fp_backend\\infrastructure\\registerar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|d:\\fp_versions\\final_project-master\\final_project-master\\allowed\\backend\\fp_backend\\fp_backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|solutionrelative:fp_backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|d:\\fp_versions\\final_project-master\\final_project-master\\allowed\\backend\\fp_backend\\fp_backend\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|solutionrelative:fp_backend\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|d:\\fp_versions\\final_project-master\\final_project-master\\allowed\\backend\\fp_backend\\fp_backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|solutionrelative:fp_backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|d:\\fp_versions\\final_project-master\\final_project-master\\allowed\\backend\\fp_backend\\fp_backend\\services\\patientser\\implementations\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|solutionrelative:fp_backend\\services\\patientser\\implementations\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|d:\\fp_versions\\final_project-master\\final_project-master\\allowed\\backend\\fp_backend\\fp_backend\\repositories\\patientrepo\\implementations\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|solutionrelative:fp_backend\\repositories\\patientrepo\\implementations\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|d:\\fp_versions\\final_project-master\\final_project-master\\allowed\\backend\\fp_backend\\fp_backend\\models\\dtos\\patientdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|solutionrelative:fp_backend\\models\\dtos\\patientdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|d:\\fp_versions\\final_project-master\\final_project-master\\allowed\\backend\\fp_backend\\fp_backend\\tokengenerator\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|solutionrelative:fp_backend\\tokengenerator\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|d:\\fp_versions\\final_project-master\\final_project-master\\allowed\\backend\\fp_backend\\fp_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|solutionrelative:fp_backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|d:\\fp_versions\\final_project-master\\final_project-master\\allowed\\backend\\fp_backend\\fp_backend\\services\\auditser\\implementations\\auditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|solutionrelative:fp_backend\\services\\auditser\\implementations\\auditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|d:\\fp_versions\\final_project-master\\final_project-master\\allowed\\backend\\fp_backend\\fp_backend\\services\\authser\\implementstions\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|solutionrelative:fp_backend\\services\\authser\\implementstions\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|d:\\fp_versions\\final_project-master\\final_project-master\\allowed\\backend\\fp_backend\\fp_backend\\services\\authser\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|solutionrelative:fp_backend\\services\\authser\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|d:\\fp_versions\\final_project-master\\final_project-master\\allowed\\backend\\fp_backend\\fp_backend\\services\\patientser\\interfaces\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|solutionrelative:fp_backend\\services\\patientser\\interfaces\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|d:\\fp_versions\\final_project-master\\final_project-master\\allowed\\backend\\fp_backend\\fp_backend\\repositories\\auditrepo\\implementations\\auditrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|solutionrelative:fp_backend\\repositories\\auditrepo\\implementations\\auditrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|d:\\fp_versions\\final_project-master\\final_project-master\\allowed\\backend\\fp_backend\\fp_backend\\repositories\\authrepo\\implementations\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|solutionrelative:fp_backend\\repositories\\authrepo\\implementations\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|d:\\fp_versions\\final_project-master\\final_project-master\\allowed\\backend\\fp_backend\\fp_backend\\dbhelper\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|solutionrelative:fp_backend\\dbhelper\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|d:\\fp_versions\\final_project-master\\final_project-master\\allowed\\backend\\fp_backend\\fp_backend\\dbhelper\\connection\\sqlconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|solutionrelative:fp_backend\\dbhelper\\connection\\sqlconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|d:\\fp_versions\\final_project-master\\final_project-master\\allowed\\backend\\fp_backend\\fp_backend\\dbhelper\\connection\\isqlconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|solutionrelative:fp_backend\\dbhelper\\connection\\isqlconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|d:\\fp_versions\\final_project-master\\final_project-master\\allowed\\backend\\fp_backend\\fp_backend\\repositories\\authrepo\\interfaces\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|solutionrelative:fp_backend\\repositories\\authrepo\\interfaces\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|d:\\fp_versions\\final_project-master\\final_project-master\\allowed\\backend\\fp_backend\\fp_backend\\repositories\\patientrepo\\interfaces\\ipatientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|solutionrelative:fp_backend\\repositories\\patientrepo\\interfaces\\ipatientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|d:\\fp_versions\\final_project-master\\final_project-master\\allowed\\backend\\fp_backend\\fp_backend\\services\\auditser\\interfaces\\iauditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|solutionrelative:fp_backend\\services\\auditser\\interfaces\\iauditservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|d:\\fp_versions\\final_project-master\\final_project-master\\allowed\\backend\\fp_backend\\fp_backend\\repositories\\auditrepo\\interfaces\\iauditrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|solutionrelative:fp_backend\\repositories\\auditrepo\\interfaces\\iauditrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|d:\\fp_versions\\final_project-master\\final_project-master\\allowed\\backend\\fp_backend\\fp_backend\\models\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|solutionrelative:fp_backend\\models\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|d:\\fp_versions\\final_project-master\\final_project-master\\allowed\\backend\\fp_backend\\fp_backend\\models\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|solutionrelative:fp_backend\\models\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|d:\\fp_versions\\final_project-master\\final_project-master\\allowed\\backend\\fp_backend\\fp_backend\\models\\domain\\audit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|solutionrelative:fp_backend\\models\\domain\\audit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|d:\\fp_versions\\final_project-master\\final_project-master\\allowed\\backend\\fp_backend\\fp_backend\\fp_backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{457DF93E-8269-46DB-8A47-2B1AE24B9CF3}|FP_BACKEND\\FP_BACKEND.csproj|solutionrelative:fp_backend\\fp_backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "FP_BACKEND\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Properties\\launchSettings.json",
+              "RelativeToolTip": "FP_BACKEND\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-07T18:18:48.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PatientDtos.cs",
+              "DocumentMoniker": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Models\\DTOs\\PatientDtos.cs",
+              "RelativeDocumentMoniker": "FP_BACKEND\\Models\\DTOs\\PatientDtos.cs",
+              "ToolTip": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Models\\DTOs\\PatientDtos.cs",
+              "RelativeToolTip": "FP_BACKEND\\Models\\DTOs\\PatientDtos.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA2wBQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T15:03:05.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Program.cs",
+              "RelativeDocumentMoniker": "FP_BACKEND\\Program.cs",
+              "ToolTip": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Program.cs",
+              "RelativeToolTip": "FP_BACKEND\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowBQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T12:46:11.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\TokenGenerator\\TokenService.cs",
+              "RelativeDocumentMoniker": "FP_BACKEND\\TokenGenerator\\TokenService.cs",
+              "ToolTip": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\TokenGenerator\\TokenService.cs",
+              "RelativeToolTip": "FP_BACKEND\\TokenGenerator\\TokenService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAowCkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T14:07:04.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\appsettings.json",
+              "RelativeDocumentMoniker": "FP_BACKEND\\appsettings.json",
+              "ToolTip": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\appsettings.json",
+              "RelativeToolTip": "FP_BACKEND\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-04T12:46:41.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "FP_BACKEND\\Controllers\\PatientController.cs",
+              "ToolTip": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "FP_BACKEND\\Controllers\\PatientController.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAuwIIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T16:14:17.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PatientRepository.cs",
+              "DocumentMoniker": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Repositories\\PatientRepo\\Implementations\\PatientRepository.cs",
+              "RelativeDocumentMoniker": "FP_BACKEND\\Repositories\\PatientRepo\\Implementations\\PatientRepository.cs",
+              "ToolTip": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Repositories\\PatientRepo\\Implementations\\PatientRepository.cs",
+              "RelativeToolTip": "FP_BACKEND\\Repositories\\PatientRepo\\Implementations\\PatientRepository.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAwDcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T15:25:06.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Registerar.cs",
+              "DocumentMoniker": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Infrastructure\\Registerar.cs",
+              "RelativeDocumentMoniker": "FP_BACKEND\\Infrastructure\\Registerar.cs",
+              "ToolTip": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Infrastructure\\Registerar.cs",
+              "RelativeToolTip": "FP_BACKEND\\Infrastructure\\Registerar.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAACAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T13:59:13.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PatientService.cs",
+              "DocumentMoniker": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Services\\PatientSer\\Implementations\\PatientService.cs",
+              "RelativeDocumentMoniker": "FP_BACKEND\\Services\\PatientSer\\Implementations\\PatientService.cs",
+              "ToolTip": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Services\\PatientSer\\Implementations\\PatientService.cs",
+              "RelativeToolTip": "FP_BACKEND\\Services\\PatientSer\\Implementations\\PatientService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T15:42:24.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "FP_BACKEND\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "FP_BACKEND\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAkwEEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T07:41:31.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Services\\AuthSer\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "FP_BACKEND\\Services\\AuthSer\\Interfaces\\IAuthService.cs",
+              "ToolTip": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Services\\AuthSer\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "FP_BACKEND\\Services\\AuthSer\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T15:20:29.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IPatientService.cs",
+              "DocumentMoniker": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Services\\PatientSer\\Interfaces\\IPatientService.cs",
+              "RelativeDocumentMoniker": "FP_BACKEND\\Services\\PatientSer\\Interfaces\\IPatientService.cs",
+              "ToolTip": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Services\\PatientSer\\Interfaces\\IPatientService.cs",
+              "RelativeToolTip": "FP_BACKEND\\Services\\PatientSer\\Interfaces\\IPatientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T15:41:29.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Services\\AuthSer\\Implementstions\\AuthService.cs",
+              "RelativeDocumentMoniker": "FP_BACKEND\\Services\\AuthSer\\Implementstions\\AuthService.cs",
+              "ToolTip": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Services\\AuthSer\\Implementstions\\AuthService.cs",
+              "RelativeToolTip": "FP_BACKEND\\Services\\AuthSer\\Implementstions\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T15:20:12.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuditService.cs",
+              "DocumentMoniker": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Services\\AuditSer\\Implementations\\AuditService.cs",
+              "RelativeDocumentMoniker": "FP_BACKEND\\Services\\AuditSer\\Implementations\\AuditService.cs",
+              "ToolTip": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Services\\AuditSer\\Implementations\\AuditService.cs",
+              "RelativeToolTip": "FP_BACKEND\\Services\\AuditSer\\Implementations\\AuditService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T15:16:12.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuditRepository.cs",
+              "DocumentMoniker": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Repositories\\AuditRepo\\Implementations\\AuditRepository.cs",
+              "RelativeDocumentMoniker": "FP_BACKEND\\Repositories\\AuditRepo\\Implementations\\AuditRepository.cs",
+              "ToolTip": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Repositories\\AuditRepo\\Implementations\\AuditRepository.cs",
+              "RelativeToolTip": "FP_BACKEND\\Repositories\\AuditRepo\\Implementations\\AuditRepository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T15:12:06.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Repositories\\AuthRepo\\Implementations\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "FP_BACKEND\\Repositories\\AuthRepo\\Implementations\\AuthRepository.cs",
+              "ToolTip": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Repositories\\AuthRepo\\Implementations\\AuthRepository.cs",
+              "RelativeToolTip": "FP_BACKEND\\Repositories\\AuthRepo\\Implementations\\AuthRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T15:13:39.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\DBhelper\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "FP_BACKEND\\DBhelper\\DbInitializer.cs",
+              "ToolTip": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\DBhelper\\DbInitializer.cs",
+              "RelativeToolTip": "FP_BACKEND\\DBhelper\\DbInitializer.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAkwBIAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T06:02:54.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SqlConnectionFactory.cs",
+              "DocumentMoniker": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\DBhelper\\Connection\\SqlConnectionFactory.cs",
+              "RelativeDocumentMoniker": "FP_BACKEND\\DBhelper\\Connection\\SqlConnectionFactory.cs",
+              "ToolTip": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\DBhelper\\Connection\\SqlConnectionFactory.cs",
+              "RelativeToolTip": "FP_BACKEND\\DBhelper\\Connection\\SqlConnectionFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T06:13:03.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ISqlConnectionFactory.cs",
+              "DocumentMoniker": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\DBhelper\\Connection\\ISqlConnectionFactory.cs",
+              "RelativeDocumentMoniker": "FP_BACKEND\\DBhelper\\Connection\\ISqlConnectionFactory.cs",
+              "ToolTip": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\DBhelper\\Connection\\ISqlConnectionFactory.cs",
+              "RelativeToolTip": "FP_BACKEND\\DBhelper\\Connection\\ISqlConnectionFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T06:12:42.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IAuthRepository.cs",
+              "DocumentMoniker": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Repositories\\AuthRepo\\Interfaces\\IAuthRepository.cs",
+              "RelativeDocumentMoniker": "FP_BACKEND\\Repositories\\AuthRepo\\Interfaces\\IAuthRepository.cs",
+              "ToolTip": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Repositories\\AuthRepo\\Interfaces\\IAuthRepository.cs",
+              "RelativeToolTip": "FP_BACKEND\\Repositories\\AuthRepo\\Interfaces\\IAuthRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T15:13:47.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IPatientRepository.cs",
+              "DocumentMoniker": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Repositories\\PatientRepo\\Interfaces\\IPatientRepository.cs",
+              "RelativeDocumentMoniker": "FP_BACKEND\\Repositories\\PatientRepo\\Interfaces\\IPatientRepository.cs",
+              "ToolTip": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Repositories\\PatientRepo\\Interfaces\\IPatientRepository.cs",
+              "RelativeToolTip": "FP_BACKEND\\Repositories\\PatientRepo\\Interfaces\\IPatientRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T15:24:23.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IAuditService.cs",
+              "DocumentMoniker": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Services\\AuditSer\\Interfaces\\IAuditService.cs",
+              "RelativeDocumentMoniker": "FP_BACKEND\\Services\\AuditSer\\Interfaces\\IAuditService.cs",
+              "ToolTip": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Services\\AuditSer\\Interfaces\\IAuditService.cs",
+              "RelativeToolTip": "FP_BACKEND\\Services\\AuditSer\\Interfaces\\IAuditService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T15:16:18.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IAuditRepository.cs",
+              "DocumentMoniker": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Repositories\\AuditRepo\\Interfaces\\IAuditRepository.cs",
+              "RelativeDocumentMoniker": "FP_BACKEND\\Repositories\\AuditRepo\\Interfaces\\IAuditRepository.cs",
+              "ToolTip": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Repositories\\AuditRepo\\Interfaces\\IAuditRepository.cs",
+              "RelativeToolTip": "FP_BACKEND\\Repositories\\AuditRepo\\Interfaces\\IAuditRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T15:12:26.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Models\\Domain\\User.cs",
+              "RelativeDocumentMoniker": "FP_BACKEND\\Models\\Domain\\User.cs",
+              "ToolTip": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Models\\Domain\\User.cs",
+              "RelativeToolTip": "FP_BACKEND\\Models\\Domain\\User.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T05:54:19.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Audit.cs",
+              "DocumentMoniker": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Models\\Domain\\Audit.cs",
+              "RelativeDocumentMoniker": "FP_BACKEND\\Models\\Domain\\Audit.cs",
+              "ToolTip": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Models\\Domain\\Audit.cs",
+              "RelativeToolTip": "FP_BACKEND\\Models\\Domain\\Audit.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA4wAoAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T09:32:51.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AuthDtos.cs",
+              "DocumentMoniker": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Models\\DTOs\\AuthDtos.cs",
+              "RelativeDocumentMoniker": "FP_BACKEND\\Models\\DTOs\\AuthDtos.cs",
+              "ToolTip": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\Models\\DTOs\\AuthDtos.cs",
+              "RelativeToolTip": "FP_BACKEND\\Models\\DTOs\\AuthDtos.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAmwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T05:54:45.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FP_BACKEND.csproj",
+              "DocumentMoniker": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\FP_BACKEND.csproj",
+              "RelativeDocumentMoniker": "FP_BACKEND\\FP_BACKEND.csproj",
+              "ToolTip": "D:\\FP_Versions\\FINAL_PROJECT-master\\FINAL_PROJECT-master\\Allowed\\BACKEND\\FP_BACKEND\\FP_BACKEND\\FP_BACKEND.csproj",
+              "RelativeToolTip": "FP_BACKEND\\FP_BACKEND.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-04T13:54:35.997Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

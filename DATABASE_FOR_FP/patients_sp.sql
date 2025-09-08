@@ -1,0 +1,108 @@
+USE [CARE_6612];
+GO
+
+-------------------------------------------------
+-- CREATE PROCEDURE
+-------------------------------------------------
+IF OBJECT_ID('DBO.STP_CREATE_PATIENT', 'P') IS NOT NULL
+    DROP PROCEDURE DBO.STP_CREATE_PATIENT;
+GO
+CREATE PROCEDURE DBO.STP_CREATE_PATIENT
+    @FIRSTNAME       VARCHAR(25),
+    @LASTNAME        VARCHAR(25),
+    @GENDER          VARCHAR(10),
+    @USERADDRESS     VARCHAR(255),
+    @EMAIL           VARCHAR(100) = NULL,
+    @PHONENO         VARCHAR(25) = NULL,
+    @EMERGENCY_PHONE VARCHAR(20)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    INSERT INTO DBO.PATIENTS(FIRSTNAME, LASTNAME, GENDER, USERADDRESS, EMAIL, PHONENO, EMERGENCY_PHONE)
+    VALUES(@FIRSTNAME, @LASTNAME, @GENDER, @USERADDRESS, @EMAIL, @PHONENO, @EMERGENCY_PHONE);
+
+    SELECT CAST(SCOPE_IDENTITY() AS INT) AS NewPatientId;
+END
+GO
+
+-------------------------------------------------
+-- UPDATE PROCEDURE
+-------------------------------------------------
+IF OBJECT_ID('DBO.STP_UPDATE_PATIENT', 'P') IS NOT NULL
+    DROP PROCEDURE DBO.STP_UPDATE_PATIENT;
+GO
+CREATE PROCEDURE DBO.STP_UPDATE_PATIENT
+    @ID             INT,
+    @FIRSTNAME      VARCHAR(25),
+    @LASTNAME       VARCHAR(25),
+    @GENDER         VARCHAR(10),
+    @USERADDRESS    VARCHAR(255),
+    @EMAIL          VARCHAR(100) = NULL,
+    @PHONENO        VARCHAR(25) = NULL,
+    @EMERGENCY_PHONE VARCHAR(20)
+AS
+BEGIN
+    UPDATE DBO.PATIENTS
+    SET FIRSTNAME       = @FIRSTNAME,
+        LASTNAME        = @LASTNAME,
+        GENDER          = @GENDER,
+        USERADDRESS     = @USERADDRESS,
+        EMAIL           = @EMAIL,
+        PHONENO         = @PHONENO,
+        EMERGENCY_PHONE = @EMERGENCY_PHONE
+    WHERE ID = @ID;
+    
+END
+GO
+
+-------------------------------------------------
+-- SEARCH PATIENT BY FULL NAME
+-------------------------------------------------
+IF OBJECT_ID('DBO.STP_SEARCH_PATIENT_BY_NAME', 'P') IS NOT NULL
+    DROP PROCEDURE DBO.STP_SEARCH_PATIENT_BY_NAME;
+GO
+CREATE PROCEDURE DBO.STP_SEARCH_PATIENT_BY_NAME
+    @FULLNAME VARCHAR(100)
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    SELECT *
+    FROM DBO.PATIENTS
+    WHERE (FIRSTNAME + ' ' + LASTNAME) LIKE '%' + @FULLNAME + '%';
+END
+GO
+
+-------------------------------------------------
+-- GET ALL PATIENTS
+-------------------------------------------------
+IF OBJECT_ID('DBO.STP_GET_ALL_PATIENTS', 'P') IS NOT NULL
+    DROP PROCEDURE DBO.STP_GET_ALL_PATIENTS;
+GO
+CREATE PROCEDURE DBO.STP_GET_ALL_PATIENTS
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    SELECT * FROM DBO.PATIENTS;
+END
+GO
+
+-------------------------------------------------
+-- DELETE PATIENT 
+-------------------------------------------------
+IF OBJECT_ID('DBO.STP_DELETE_PATIENT', 'P') IS NOT NULL
+    DROP PROCEDURE DBO.STP_DELETE_PATIENT;
+GO
+CREATE PROCEDURE DBO.STP_DELETE_PATIENT
+    @ID INT
+AS
+BEGIN
+   
+
+    DELETE FROM DBO.PATIENTS WHERE ID = @ID;
+END
+GO
+
+

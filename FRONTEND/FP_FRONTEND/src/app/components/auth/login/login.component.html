@@ -1,0 +1,74 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-6 col-lg-4">
+      <div class="card">
+        <div class="card-header">
+          <h2 class="card-title text-center">Login</h2>
+        </div>
+        <div class="card-body">
+          <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+            <!-- Error Alert -->
+            @if (error$ | async; as error) {
+              <div class="alert alert-danger">
+                {{ error }}
+              </div>
+            }
+
+            <!-- Email Field -->
+            <div class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="email"
+                id="email"
+                class="form-control"
+                [class.error]="loginForm.get('email')?.invalid && loginForm.get('email')?.touched"
+                formControlName="email"
+                placeholder="Enter your email"
+              />
+              @if (getFieldError('email')) {
+                <div class="form-error">{{ getFieldError('email') }}</div>
+              }
+            </div>
+
+            <!-- Password Field -->
+            <div class="form-group">
+              <label for="password" class="form-label">Password</label>
+              <input
+                type="password"
+                id="password"
+                class="form-control"
+                [class.error]="loginForm.get('password')?.invalid && loginForm.get('password')?.touched"
+                formControlName="password"
+                placeholder="Enter your password"
+              />
+              @if (getFieldError('password')) {
+                <div class="form-error">{{ getFieldError('password') }}</div>
+              }
+            </div>
+
+            <!-- Submit Button -->
+            <div class="form-group">
+              <button
+                type="submit"
+                class="btn btn-primary w-100"
+                [disabled]="loginForm.invalid || (loading$ | async)"
+              >
+                @if (loading$ | async) {
+                  <span class="spinner-border spinner-border-sm me-2" role="status"></span>
+                  Logging in...
+                } @else {
+                  Login
+                }
+              </button>
+            </div>
+          </form>
+
+          <!-- Signup Link -->
+          <div class="text-center mt-3">
+            <p>Don't have an account? <a routerLink="/signup">Sign up here</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
